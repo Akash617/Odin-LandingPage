@@ -136,7 +136,7 @@ div {
 .message {
   flex: 3;
   padding-left: 50px;
-  padding: 25px;
+  padding: 15px;
 }
 
 .message_title {
@@ -151,7 +151,7 @@ div {
 }
 
 .message_right {
-  padding: 75px 0;
+  padding: 110px 0;
 }
 
 .message_button {
