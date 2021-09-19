@@ -1,0 +1,170 @@
+/* styles.css */
+
+* {
+  font-family: "Times New Roman", sans-serif;
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 1800px;
+  justify-content: space-between;
+}
+
+.tab_one {
+  background-color: #1F2937;
+  display: flex;
+  flex: 1 0 28%;
+  padding: 150px 250px;
+}
+
+div {
+  flex: 1;
+}
+
+.hero_main_text {
+  font-size: 48px;
+  font-weight: 800;
+  color: #F9FAF8;
+}
+
+.hero_secondary_text {
+  font-size: 18px;
+  color: #E5E7EB;
+}
+
+.image_placeholder {
+  background-color: rgb(120, 120, 120);
+  text-align: center;
+  padding: 10px 0;
+  color: #F9FAF8;
+  margin-left: 100px;
+}
+
+.tab_two {
+  background-color: white;
+  display: flex;
+  flex: 1 0 28%;
+  padding: 20px 400px;
+  flex-direction: column;
+}
+
+.tab_two_title {
+  text-align: center;
+  margin: 50px;
+  font-size: 38px;
+  font-weight: 800;
+}
+
+.tab_two_content {
+  background-color: white;
+  display: flex;
+  flex: 2;
+  height: 600px;
+  text-align: center;
+}
+
+.set_one {
+  flex: 0;
+  width: 150px;
+  margin: 0 auto;
+}
+
+.set_two {
+  flex: 0;
+  width: 150px;
+  margin: 0 auto;
+}
+
+.set_three {
+  flex: 0;
+  width: 150px;
+  margin: 0 auto;
+}
+
+.set_four {
+  flex: 0;
+  width: 150px;
+  margin: 0 auto;
+}
+
+.small_image_placeholder {
+  border-style: solid;
+  border-width: 4px;
+  border-radius: 10px;
+  height: 150px;
+  width: 150px;
+  color: #3882F6;
+}
+
+.tab_three {
+  background-color: #E5E7EB;
+  display: flex;
+  flex: 1 0 28%;
+  flex-direction: column;
+  text-align: left;
+  padding: 10px 400px;
+  font-size: 40px;
+}
+
+.quote p {
+  font-family: 'Alegreya', serif;
+  font-style: italic;
+}
+
+.author {
+  text-align: right;
+  font-weight: 800;
+  font-size: 36px;
+}
+
+.tab_four {
+  display: flex;
+  flex: 1 0 19%;
+  padding: 50px 200px;
+  text-align: left;
+}
+
+.tab_four_main {
+  background-color: #3882F6;
+  display: flex;
+  margin: 0 auto;
+  padding: 10px 0;
+}
+
+.message {
+  flex: 3;
+  padding-left: 50px;
+  padding: 25px;
+}
+
+.message_title {
+  font-size: 48px;
+  font-weight: 800;
+  color: #F9FAF8;
+}
+
+.message_content {
+  font-size: 32px;
+  color: #E5E7EB;
+}
+
+.message_right {
+  padding: 75px 0;
+}
+
+.message_button {
+  height: 35px;
+  width: 100px;
+  margin: 0 auto;
+  border: solid;
+  border-radius: 10px;
+  border-width: 2px;
+  color: #F9FAF8;
+  text-align: center;
+}
+
+.message_button p {
+  margin: 4px;
+}
